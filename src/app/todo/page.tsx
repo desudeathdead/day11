@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 
-const STYLE = "border border-black rounded-md px-2 mb-2"
+const STYLE = "border border-gray rounded-md px-2 mb-2"
 
 export default function Todo() {
     const [task, setTask] = useState('')
